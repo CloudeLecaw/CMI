@@ -29,6 +29,8 @@ $2 == apple
 
 $3 == superman
 
+
+
 $1- == banana apple superman
 
 $4 == nothing there, so it is "null"
@@ -36,5 +38,9 @@ $4 == nothing there, so it is "null"
 $1 $3 == banana superman
 
 $0 $3 == fruit superman
+
+$0 $2- = fruit apple superman
+
+$2- $1 $0 = apple superman banana fruit
 
 ```
